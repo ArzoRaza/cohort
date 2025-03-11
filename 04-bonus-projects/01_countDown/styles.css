@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("https://images.unsplash.com/photo-1494187570835-b188e7f0f26e?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW4lMjBsYW5kfGVufDB8fDB8fHww") no-repeat center center/cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    color: rgb(29, 88, 140);
+}
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: transparent;
+    border: 1px solid rgb(29, 88, 140);
+    border-radius: 5px;
+}
+
+.middle-part {
+    padding: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+#countdownDisplay {
+    color: rgb(0, 98, 184);
+}
