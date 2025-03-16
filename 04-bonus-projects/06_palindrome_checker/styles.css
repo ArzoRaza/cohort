@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffe3f6;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 5px #fca3ff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1px;
+    color: #f331c9;
+}
+
+#inputText {
+    display: block;
+    font-size: 20px;
+    border: none;
+    width: 95%;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #f331c9;
+    background-color: #ffcff7;
+}
+::placeholder {
+    color: #f331c9;
+}
+
+/* #checkButton {
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(89, 93, 89);
+    color: white;
+    padding: 5px;
+    width: 99%;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#checkButton:hover {
+    background-color: #252323;
+}
+#checkButton:active {
+    background-color: #ffff;
+    color: #252323;
+} */
+
+p {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #595858;
+}
+#reversedText {
+    font-size: 20px;
+    color: #bb1797;
+}
