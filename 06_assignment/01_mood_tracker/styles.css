@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+    background: url(./assets/image.png) no-repeat center center fixed;;
+    background-size: cover;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background: transparent;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    /* box-shadow: 0px 4px 8px rgba(255, 63, 63, 0.1); */
+}
+
+h1, h2 {
+    color: rgb(7, 7, 7);
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+
+
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.mood-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    border-radius: 50px;
+}
+
+.mood-btn {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.mood-btn:hover {
+    background-color: #d1d1d1;
+    border-radius: 50px;
+
+}
+
+#mood-history {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#mood-history li {
+    background: #fce0e0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
