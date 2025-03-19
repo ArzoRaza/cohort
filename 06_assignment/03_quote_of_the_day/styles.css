@@ -14,7 +14,7 @@ body {
 .container {
     text-align: center;
     background-color: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(40px);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(192, 139, 139, 0.2);
@@ -28,6 +28,7 @@ body {
 #quote {
     font-size: 1.5rem;
     font-style: italic;
+    color: #ffffff;
     font-size: 30px;
     margin-bottom: 10px;
 }
