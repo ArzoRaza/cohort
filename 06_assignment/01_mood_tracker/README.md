@@ -22,11 +22,17 @@ CSS – To style the mood tracker and calendar.
 JavaScript – Handles mood selection, saving, and calendar updates.
 
 How to Run 🚀
+first look: 
+https://mood-tacker-a1.vercel.app/
 
 Clone or download this repository.
+https://github.com/ArzoRaza/cohort/tree/main/06_assignment/01_mood_tracker
+
 Open index.html in a browser.
 Click a mood button to log today's mood.
 See the mood appear in the history log and calendar.
+
+
 
 Here is screenshot of project:![image](https://github.com/user-attachments/assets/f61144b2-07e4-47d2-a5a7-69f0038548f9)
 
