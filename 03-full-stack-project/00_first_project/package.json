@@ -1,0 +1,15 @@
+{
+  "name": "00_first_project",
+  "version": "1.0.0",
+  "description": "first full stack project ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arzo raza",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
