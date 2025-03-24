@@ -3,8 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv"
 dotenv.config()
 
-// export a function that cnnects to db
-
+// export a function that cnnects to database
 const database = () => {
     mongoose.connect(process.env.MONGO_URL)
     .then(() => {

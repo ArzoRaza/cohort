@@ -3,6 +3,9 @@ import dotenv from "dotenv";
 import cors from "cors";
 import database from "./utils/db.js";
 
+// all import routes here
+import userRoutes from "./routes/user.routes.js"
+
 dotenv.config();
 
 const app = express();
@@ -33,8 +36,11 @@ app.get("/akbar", function (r, s) {
   s.send("Now it's page dedicated for Akbar");
 });
 
-// connect to database
+// Database connection
 database()
+
+// User routes
+app.use("/api/v1/users/", userRoutes)
 
 app.listen(process.env.PORT, () => {
   console.log(`App listening/Running on port ${port}`);
